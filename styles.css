@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(195, 62, 62);
+    color: antiquewhite;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap:10px;
+}
+
+.navLinks li{
+    display: inline;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: rgb(252, 240, 225);
+    font-size: 14px;
+}
+
+.navLinks a:hover {
+    color: wheat;
+}
+
+.buttons button {
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.login {
+    background: rgb(253, 246, 232);
+    color:rgba(174, 79, 79, 0.968) !important;
+}
+
+.signUp {
+    background: rgb(253, 246, 232);
+    color:rgba(174, 79, 79, 0.968) !important;
+}
+
+.login:hover {
+    background: rgb(254, 251, 228);
+    color:rgba(176, 59, 59, 0.968) !important;
+}
+
+.signUp:hover {
+    background: rgb(254, 251, 228);
+    color:rgba(176, 59, 59, 0.968) !important;
+}
