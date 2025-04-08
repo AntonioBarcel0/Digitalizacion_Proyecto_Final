@@ -66,3 +66,36 @@
     background: rgb(254, 251, 228);
     color:rgba(176, 59, 59, 0.968) !important;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+    color:rgb(0, 0, 0);
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.copyright {
+    margin: 0 20px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
