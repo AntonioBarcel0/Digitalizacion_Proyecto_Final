@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5e9;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e8e3c9;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 00;
+    font-style: normal;
+    color: #2f2a2a;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    margin-left: 20px;
+}
+
+.auth-buttons .login, .auth-buttons .register {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    background-color: #f5f5e9;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.auth-buttons .register {
+    background-color: #d4e4c3;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.panel_central {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 800px;
+}
+
+.panel_central_text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #181515;
+}
+
+.panel_central_text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #3d3333;
+}
+
+.panel_central_text .login {
+    padding: 10px 20px;
+    border: 1px solid #9e9696;
+    background-color: #f5f5e9;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.panel_central_image .image-placeholder {
+    width: 300px;
+    height: 200px;
+    border: 1px dashed #958484;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/019/966/010/small/alcazar-castle-in-segovia-spain-it-is-a-medieval-castle-located-in-the-city-of-segovia-in-castile-and-leon-spain-photo.jpg');
+}
+
+/* Pie de página */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #c7d4a5;
+    color: #333;
+    font-size: 14px;
+}
