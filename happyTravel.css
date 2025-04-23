@@ -9,7 +9,6 @@ body {
     background-color: #f5f5e9;
 }
 
-/* Encabezado */
 header {
     display: flex;
     justify-content: space-between;
@@ -22,11 +21,14 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    background: url('https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-5f90-620a-8731-ebdfcc473f64/raw?se=2025-04-23T11%3A37%3A31Z&sp=r&sv=2024-08-04&sr=b&scid=b9570614-6561-5e47-b427-62ef37d662ab&skoid=9370dd2b-ca43-4270-bed5-18b1b71f8fa0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-23T05%3A34%3A37Z&ske=2025-04-24T05%3A34%3A37Z&sks=b&skv=2024-08-04&sig=tN/edJhl2S5aDQcA6iyrXvlYv3cK/yln68LpPNzDd/E%3D');
+
 }
 
 .logo img {
-    width: 50px;
+    width: 150px;
     margin-right: 10px;
+
 }
 
 .logo h1 {
@@ -53,23 +55,22 @@ nav ul li a {
     font-size: 16px;
 }
 
-.auth-buttons {
+.botones-registro-logeo {
     margin-left: 20px;
 }
 
-.auth-buttons .login, .auth-buttons .register {
+.botones-registro-logeo .login, .botones-registro-logeo .registro {
     padding: 8px 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #918c8c;
     background-color: #f5f5e9;
     cursor: pointer;
     font-size: 14px;
 }
 
-.auth-buttons .register {
-    background-color: #d4e4c3;
+.botones-registro-logeo .registro {
+    background-color: #c0d5aa;
 }
 
-/* Contenido principal */
 main {
     display: flex;
     justify-content: center;
@@ -103,14 +104,14 @@ main {
     font-size: 14px;
 }
 
-.panel_central_image .image-placeholder {
+.panel_central_image .imagen-panel-central {
     width: 300px;
     height: 200px;
     border: 1px dashed #958484;
     background: url('https://static.vecteezy.com/system/resources/thumbnails/019/966/010/small/alcazar-castle-in-segovia-spain-it-is-a-medieval-castle-located-in-the-city-of-segovia-in-castile-and-leon-spain-photo.jpg');
 }
 
-/* Pie de página */
+
 footer {
     display: flex;
     justify-content: space-between;
