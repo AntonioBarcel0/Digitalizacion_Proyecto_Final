@@ -113,6 +113,13 @@ main {
     background: url('https://static.vecteezy.com/system/resources/thumbnails/019/966/010/small/alcazar-castle-in-segovia-spain-it-is-a-medieval-castle-located-in-the-city-of-segovia-in-castile-and-leon-spain-photo.jpg');
 }
 
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    max-width: 100px;
+  }
 
 footer {
     display: flex;
