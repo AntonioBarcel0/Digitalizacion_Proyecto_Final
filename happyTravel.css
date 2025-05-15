@@ -1,3 +1,4 @@
+/* Estilos generales */
 * {
     margin: 0;
     padding: 0;
@@ -6,126 +7,461 @@
 }
 
 body {
-    background-color: #f5f5e9;
+    background-color: #f2f2e6;
+    color: #333;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Cabecera */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #e8e3c9;
-    border-bottom: 1px solid #ccc;
-    height: 100px;
-    overflow: hidden;
+    padding: 15px 5%;
+    background-color: #f2f2e6;
+    border-bottom: 1px solid #d9d9c9;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.brand-name {
+    font-family: "Modern Antiqua", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.main-menu {
     display: flex;
+}
+
+.main-menu li {
+    margin: 0 15px;
+}
+
+.main-menu li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #5a5a45;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.main-menu li a:hover {
+    background-color: #d4d4c0;
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.menu-button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #5a5a45;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #d4d4c0;
+    color: #333;
+}
+
+.user-actions {
+    display: flex;
+}
+
+.user-menu {
+    font-size: 14px;
+    font-weight: 600;
+    color: #5a5a45;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: 1px solid #c0c0a8;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.user-menu:hover {
+    background-color: #d4d4c0;
+    color: #333;
+}
+
+.register {
+    background-color: #c0c0a8;
+}
+
+.register:hover {
+    background-color: #b0b098;
+}
+
+/* Sección principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+/* Hero section */
+/* Hero section */
+.hero {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    min-height: 200px;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    background: url('https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-5f90-620a-8731-ebdfcc473f64/raw?se=2025-04-23T11%3A37%3A31Z&sp=r&sv=2024-08-04&sr=b&scid=b9570614-6561-5e47-b427-62ef37d662ab&skoid=9370dd2b-ca43-4270-bed5-18b1b71f8fa0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-23T05%3A34%3A37Z&ske=2025-04-24T05%3A34%3A37Z&sks=b&skv=2024-08-04&sig=tN/edJhl2S5aDQcA6iyrXvlYv3cK/yln68LpPNzDd/E%3D');
-
 }
 
-.logo img {
-    width: 150px;
-    margin-right: 10px;
-
+.hero-image img {
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 3px;
 }
 
-.logo h1 {
-    font-family: "Sorts Mill Goudy", serif;
-    font-weight: 00;
-    font-style: normal;
-    color: #2f2a2a;
+.hero p {
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
-nav {
+.cta-button {
+    background-color: #a8b186;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #96a06a;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+/* About Us section */
+.about-us {
+    background-color: #fbfbfb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
     display: flex;
+    justify-content: space-between;
+}
+
+.about-content {
+    flex: 1.5;
+    padding-right: 20px;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
+.about-image img {
+    max-width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+
+/* Gallery sections */
+.castles, .cathedrals {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+    transition: all 0.3s ease;
 }
 
-.botones-registro-logeo {
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.item-image {
+    background-color: #fff;
+    height: 180px;
+    border: 1px solid #ddd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover .item-image {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: scale(1.03);
+}
+
+/* Imágenes específicas de castillos */
+.castle-1 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329056/AdobeStock_56552843-1024x682.jpg_tpisg8.webp');
+}
+
+.castle-2 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329142/alcazar_segovia_vkypej.webp');
+}
+
+.castle-3 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329190/castillo-de-coca-1024x683-1.jpg_wczsvj.webp');
+}
+
+.castle-4 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329246/AdobeStock_53137473_wkyi26.webp');
+}
+
+.castle-5 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329329/Castillo-de-Zafra-scaled-1-1536x1024_nz5obn.jpg');
+}
+/* Imágenes específicas de catedrales */
+.cathedral-1 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329771/catedral-de-sevilla_09e9dfc5_241104120153_1200x800_o1po1b.webp');
+}
+
+.cathedral-2 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329831/catedral-de-burgos_7284d107_4272e68f_241104120651_1200x802_dw6dif.webp');
+}
+
+.cathedral-3 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329873/catedral-de-avila_a68d25df_241104120949_1200x800_roaivr.webp');
+}
+
+.cathedral-4 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329910/plaza-santa-maria-baeza_26e8799c_241104121530_1200x801_fvrpaz.webp');
+}
+
+.cathedral-5 {
+    background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329982/catedral-de-cuenca_00000000_c5cd1ce8_241104121447_1200x801_vi406t.webp');
+}
+
+.item-title {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #4a4a3a;
+    text-align: center;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.item-title:hover {
+    color: #7a7a60;
+    background-color: #e9e9d9;
+    text-decoration: underline;
+    transform: translateY(-2px);
+}
+
+/* Contact form */
+.contact-form {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+form {
+    flex: 2;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9c9;
+    background-color: #e9e9d9;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+input:hover, textarea:hover {
+    border-color: #a8b186;
+    background-color: #f0f0e8;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #7a8b5a;
+    box-shadow: 0 0 5px rgba(168, 177, 134, 0.5);
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-info {
+    flex: 1;
     margin-left: 20px;
 }
 
-.botones-registro-logeo .login, .botones-registro-logeo .registro {
-    padding: 8px 15px;
-    border: 1px solid #918c8c;
-    background-color: #f5f5e9;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.botones-registro-logeo .registro {
-    background-color: #c0d5aa;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
-
-.panel_central {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    max-width: 800px;
-}
-
-.panel_central_text h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #181515;
-}
-
-.panel_central_text p {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #3d3333;
-}
-
-.panel_central_text .login {
-    padding: 10px 20px;
-    border: 1px solid #9e9696;
-    background-color: #f5f5e9;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.panel_central_image .imagen-panel-central {
-    width: 300px;
-    height: 200px;
-    border: 1px dashed #958484;
-    background: url('https://static.vecteezy.com/system/resources/thumbnails/019/966/010/small/alcazar-castle-in-segovia-spain-it-is-a-medieval-castle-located-in-the-city-of-segovia-in-castile-and-leon-spain-photo.jpg');
-}
-
-.about {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    align-items: center;
-    max-width: 100px;
-  }
-
+/* Footer */
 footer {
+    background-color: #a8b186;
+    padding: 30px 5%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background-color: #c7d4a5;
-    color: #333;
-    font-size: 14px;
 }
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.footer-section ul li a {
+    transition: all 0.3s ease;
+    padding: 3px 6px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.footer-section ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(3px);
+}
+
+.icon-social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.icon-social a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.social-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    
+    .main-menu, .user-actions {
+        margin-top: 15px;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .contact-form {
+        flex-direction: column;
+    }
+    
+    .contact-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    footer {
+        flex-wrap: wrap;
+    }
+    
+    .footer-section {
+        flex: 1 0 50%;
+        margin-bottom: 20px;
+    }
+}
+  

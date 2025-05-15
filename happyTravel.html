@@ -10,71 +10,152 @@
     <link rel="stylesheet" href="happyTravel.css">
 </head>
 <body>
-
     <header>
-        <div class="logo">
-            <img src="https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-5f90-620a-8731-ebdfcc473f64/raw?se=2025-04-23T11%3A37%3A31Z&sp=r&sv=2024-08-04&sr=b&scid=b9570614-6561-5e47-b427-62ef37d662ab&skoid=9370dd2b-ca43-4270-bed5-18b1b71f8fa0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-23T05%3A34%3A37Z&ske=2025-04-24T05%3A34%3A37Z&sks=b&skv=2024-08-04&sig=tN/edJhl2S5aDQcA6iyrXvlYv3cK/yln68LpPNzDd/E%3D" alt="Happy Travel Logo">
-            <h1></h1>
+        <div class="logo-container">
+            <img src="https://res.cloudinary.com/duw8e1ydz/image/upload/v1747327901/image-removebg-preview_d0nshr.png" alt="Logo de castillo" class="logo">
+            <span class="brand-name">HAPPY<br>TRAVEL</span>
         </div>
         <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Historia</a></li>
-                <li><a href="#">Galería</a></li>
-                <li><a href="#">Contacto</a></li>
+            <ul class="main-menu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">PÁGINAS</a></li>
+                <li><a href="#">GALERÍA</a></li>
+                <li><a href="#">CONTACTO</a></li>
             </ul>
-            <div class="botones-registro-logeo">
-                <button class="login">Inicio sesión</button>
-                <button class="registro">Registro</button>
-            </div>
         </nav>
+        <div class="user-actions">
+            <a href="#" class="user-menu">CREAR CUENTA</a>
+            <a href="#" class="user-menu register">REGISTRO</a>
+        </div>
     </header>
 
-    
     <main>
-        <section class="panel_central">
-            <div class="panel_central_text">
-                <h2>Castillos de España</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsumdidunt.</p>
-                <button class="login">Inicio sesión</button>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Castillos de España</h1>
+                <p>Descubre el legado medieval de la península ibérica a través de sus majestuosos castillos y catedrales. Viaja en el tiempo y vive la historia en cada piedra, cada torre y cada muralla que ha protegido el rico patrimonio español durante siglos.</p>
+                <button class="cta-button">INICIO SESIÓN</button>
             </div>
-            <div class="panel_central_image">
-                <div class="imagen-panel-central"></div>
+            <div class="hero-image">
+                <img src="https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329343/Castillo-de-Santa-Florentina-11.jpg_b6xaje.webp" alt="Castillo principal de España">
             </div>
         </section>
-        
-        <section class="about">
-            <div class="text">
-              <h2>Acerca de nosotros</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsudidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsudidunt.</p>
+
+        <section class="about-us">
+            <div class="about-content">
+                <h2>Acerca de nosotros</h2>
+                <p>En Happy Travel somos apasionados del turismo cultural e histórico. Durante más de 15 años nos hemos especializado en crear experiencias únicas que conectan a los viajeros con el rico patrimonio arquitectónico de España.</p>
+                <p>Nuestro equipo de expertos locales conoce cada rincón, cada leyenda y cada secreto de los monumentos más emblemáticos del país. Diseñamos rutas personalizadas que van más allá del turismo convencional, permitiéndote sumergirte en la historia viva de castillos, fortalezas y catedrales que han sido testigos de los momentos más importantes de la historia española.</p>
+                <p>Con Happy Travel no solo visitarás lugares extraordinarios, sino que vivirás experiencias que permanecerán en tu memoria para siempre.</p>
             </div>
-            <div class="image placeholder"></div>
+            <div class="about-image">
+                <img src="https://res.cloudinary.com/duw8e1ydz/image/upload/v1747331650/pngwing.com_jmzkjq.png" alt="Equipo de Happy Travel">
+            </div>
+        </section>
+
+        <section class="castles">
+            <h2>Castillos</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="item-image castle-1"></div>
+                    <a href="#" class="item-title">Castillo de Loarre</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image castle-2"></div>
+                    <a href="#" class="item-title">Alcázar de Segovia</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image castle-3"></div>
+                    <a href="#" class="item-title">Castillo de Coca</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image castle-4"></div>
+                    <a href="#" class="item-title">Castillo de Peñafiel</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image castle-5"></div>
+                    <a href="#" class="item-title">Castillo de Zafra</a>
+                </div>
+            </div>
+        </section>
+
+                <section class="cathedrals">
+            <h2>Catedrales</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="item-image cathedral-1"></div>
+                    <a href="#" class="item-title">Catedral de Sevilla</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image cathedral-2"></div>
+                    <a href="#" class="item-title">Catedral de Burgos</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image cathedral-3"></div>
+                    <a href="#" class="item-title">Catedral de Ávila</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image cathedral-4"></div>
+                    <a href="#" class="item-title">Catedral de Baeza</a>
+                </div>
+                <div class="gallery-item">
+                    <div class="item-image cathedral-5"></div>
+                    <a href="#" class="item-title">Catedral de Cuenca</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="contact-info">
+                <h2>Contacta con nosotros</h2>
+            </div>
+            <form>
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Asunto">
+                <textarea placeholder="Comentarios"></textarea>
+                <button type="submit" class="cta-button">ENVIAR</button>
+            </form>
+            
         </section>
     </main>
 
     <footer>
-        <footer class="footer">
-            <div>
-              <h4>HAPPY TRAVEL</h4>
-              <p>QUIENES SOMOS<br>PRENSA<br>SOSTENIBILIDAD<br>REGALA HAPPY TRAVEL</p>
+        <div class="footer-section">
+            <h3>HAPPY TRAVEL</h3>
+            <ul>
+                <li><a href="#">QUIÉNES SOMOS</a></li>
+                <li><a href="#">ACTIVIDADES</a></li>
+                <li><a href="#">DESTINOS</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>INSPIRACIÓN</h3>
+            <ul>
+                <li><a href="#">EVENTOS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">RUTAS DE VIAJE</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>TRABAJA CON NOSOTROS</h3>
+            <ul>
+                <li><a href="#">PROVEEDORES</a></li>
+                <li><a href="#">AFILIADOS</a></li>
+                <li><a href="#">AGENCIAS DE VIAJE</a></li>
+                <li><a href="#">ALOJAMIENTOS</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>AYUDA</h3>
+            <div class="icon-social">
+                <a href="#"><img src="https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329428/e53064110660b0bc596f295c07f1f42f_vmtmaj.jpg" alt="Facebook" class="social-icon"></a>
+                <a href="#"><img src="https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329484/df78d839875c3c7a3caaa2c275c2df93_pplpax.jpg" alt="Instagram" class="social-icon"></a>
+                <a href="#"><img src="https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329623/dc6b4bdf97029cfc792b1482725d0034_n2xrd6.jpg" alt="Twitter" class="social-icon"></a>
             </div>
-            <div>
-              <h4>INSPIRACIÓN</h4>
-              <p>DESTINOS<br>MAGAZINE<br>GUÍAS DE VIAJES</p>
-            </div>
-            <div>
-              <h4>TRABAJA CON NOSOTROS</h4>
-              <p>PROVEEDORES<br>AFILIADOS<br>AGENCIAS DE VIAJES<br>ALOJAMIENTOS<br>EMPLEO</p>
-            </div>
-            <div>
-              <h4>AYUDA</h4>
-              <p>CONTACTA CON HAPPY TRAVEL</p>
-              <div class="social">
-                <span>📷</span>
-                <span>🐦</span>
-              </div>
-            </div>
-          </footer>
+            <ul>
+                <li><a href="#">FAQS</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
