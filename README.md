@@ -19,14 +19,14 @@ Digitalizacion_Proyecto_Final/
 - index.html
 - index2.html
 - index3.html
-─ ht.html
-─ happyTravel.html
-─ styles.css
-─ styles2.css
-─ styles3.css
-─ ht.css
-─ happyTravel.css
-─ README.md
+- ht.html
+- happyTravel.html
+- styles.css
+- styles2.css
+- styles3.css
+- ht.css
+- happyTravel.css
+- README.md
 
 ---
 
@@ -51,8 +51,12 @@ Digitalizacion_Proyecto_Final/
 
 ---
 
-## 👀🖥️👩‍💻 Vista Previa
+## 👀🖼️ Vista Previa
 
+![1.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.41.47_l6vxul.png)
+![2.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.42.10_pkbvhg.png)
+![3.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.42.37_ez0oo7.png)
+![4.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.42.58_frhzml.png)
 
 
 
