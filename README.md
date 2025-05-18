@@ -39,5 +39,20 @@ Digitalizacion_Proyecto_Final/
 - **FIGMA**: Para prototipo y maquetación del proyecto web.
 - **Cloudinary**: Para almacenar imágenes utilizadas en el proyecto en la nube.
 
+---
+
+## 🚀 Instrucciones de uso
+
+1. Abrir tu editor de codigo.
+2. Abrir la terminar con git (Bash)
+3. Clona el repositorio:
+   'git clone https://github.com/AntonioBarcel0/Digitalizacion_Proyecto_Final.git'
+4. Abrir el archivo happyTravel.html en tu navegador favorito
+
+---
+
+## 👀🖥️👩‍💻 Vista Previa
+
+
 
 
