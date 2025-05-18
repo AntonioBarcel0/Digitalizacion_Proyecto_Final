@@ -58,5 +58,11 @@ Digitalizacion_Proyecto_Final/
 ![3.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.42.37_ez0oo7.png)
 ![4.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.42.58_frhzml.png)
 
+---
 
-
+## 📬 Contacto
+ 
+Para más información o sugerencias: 
+- **Correo**: [antoniogibarber99@gmail.com]
+- **GitHub**: AntonioBarcel0
+  
