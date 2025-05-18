@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* Body*/
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ ul {
     list-style: none;
 }
 
-/* Cabecera */
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ header {
 }
 
 .brand-name {
-    font-family: "Modern Antiqua", serif;
+    font-family: "Moden Antiqua", serif;
   font-weight: 900;
   font-style: normal;
 }
@@ -86,14 +86,15 @@ header {
     color: #333;
 }
 
-.user-actions {
+.sign-actions {
     display: flex;
 }
 
-.user-menu {
+.sign-up, .sign-in {
+    display: flex;
     font-size: 14px;
     font-weight: 600;
-    color: #5a5a45;
+    color: #444438;
     padding: 8px 15px;
     margin-left: 10px;
     border: 1px solid #c0c0a8;
@@ -101,20 +102,20 @@ header {
     transition: all 0.3s ease;
 }
 
-.user-menu:hover {
+.sign-up:hover {
     background-color: #d4d4c0;
     color: #333;
 }
 
-.register {
+.sign-in {
     background-color: #c0c0a8;
 }
 
-.register:hover {
+.sign-in:hover {
     background-color: #b0b098;
 }
 
-/* Sección principal */
+/* first section */
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -138,9 +139,8 @@ h2 {
     font-size: 22px;
 }
 
-/* Hero section */
-/* Hero section */
-.hero {
+/* "See more" section */
+.see-more {
     background-color: #fff;
     padding: 30px;
     margin-bottom: 20px;
@@ -152,31 +152,31 @@ h2 {
     min-height: 200px;
 }
 
-.hero-content {
+.see-more-text {
     flex: 1;
     padding-right: 20px;
 }
 
-.hero-image {
+.see-more-image {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero-image img {
+.see-more-image img {
     max-width: 100%;
     max-height: 220px;
     object-fit: cover;
     border-radius: 3px;
 }
 
-.hero p {
+.see-more p {
     max-width: 100%;
     margin-bottom: 20px;
 }
 
-.cta-button {
+.see-more-send-button {
     background-color: #a8b186;
     color: #333;
     border: none;
@@ -188,13 +188,13 @@ h2 {
     transition: all 0.3s ease;
 }
 
-.cta-button:hover {
+.see-more-send-button:hover {
     background-color: #96a06a;
     transform: translateY(-2px);
     box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 
-/* About Us section */
+/* "About Us" section */
 .about-us {
     background-color: #fbfbfb;
     padding: 20px;
@@ -204,7 +204,7 @@ h2 {
     justify-content: space-between;
 }
 
-.about-content {
+.about-us-text {
     flex: 1.5;
     padding-right: 20px;
 }
@@ -224,7 +224,7 @@ h2 {
 }
 
 
-/* Gallery sections */
+/* Gallery-item sections */
 .castles, .cathedrals {
     margin-bottom: 30px;
 }
@@ -264,7 +264,7 @@ h2 {
     transform: scale(1.03);
 }
 
-/* Imágenes específicas de castillos */
+/* Castles images */
 .castle-1 {
     background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329056/AdobeStock_56552843-1024x682.jpg_tpisg8.webp');
 }
@@ -284,7 +284,7 @@ h2 {
 .castle-5 {
     background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329329/Castillo-de-Zafra-scaled-1-1536x1024_nz5obn.jpg');
 }
-/* Imágenes específicas de catedrales */
+/* Cathedrals images */
 .cathedral-1 {
     background-image: url('https://res.cloudinary.com/duw8e1ydz/image/upload/v1747329771/catedral-de-sevilla_09e9dfc5_241104120153_1200x800_o1po1b.webp');
 }
