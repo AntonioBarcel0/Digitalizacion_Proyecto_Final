@@ -2,7 +2,7 @@
 
 **Author:** Antonio Ginés Barceló Berlanga  
 **Educational Institution:** CEI (Centro de Estudios de Innovación)  
-**Subject:** Digitalización 
+**Subject:** Digitization
 **Date:** May 2025
 
 ---
@@ -11,7 +11,7 @@
 
 **Happy Travel** This project involves the development of a website using HTML5 and CSS3, as part of the final assignment for the Digitization course in the third term of the first year of the Advanced Vocational Training Program in Web Application Development. The main goal is to apply the knowledge acquired about web page structure and styling, creating a consistent and visually appealing user experience.
 
-EnThe main idea is to implement basic concepts, such as creating a header, a footer, a form, adding images, and designing a responsive website using methods like @media. The project began with the creation of a website prototype in FIGMA. We included images from a Cloudinary repository. Finally, we used the Bash terminal with Git for version control, updating and saving the project to the cloud via GitHub.
+The main idea is to implement basic concepts, such as creating a header, a footer, a form, adding images, and designing a responsive website using methods like @media. The project began with the creation of a website prototype in FIGMA. We included images from a Cloudinary repository. Finally, we used the Bash terminal with Git for version control, updating and saving the project to the cloud via GitHub.
 
 ---
 
@@ -34,12 +34,12 @@ Digitalizacion_Proyecto_Final/
 
 ## 🛠️👩‍💻 Tecnologías Utilizadas
 
-- **HTML5**: Para la estructura y contenido de las páginas web.
-- **CSS3**: Para el diseño y estilo visual del sitio.
-- **GITBASH**: Para el control de Versiones
-- **GITHUB**: Para actualizar y guardar los archivos y documentacion en la nube.
-- **FIGMA**: Para prototipo y maquetación del proyecto web.
-- **Cloudinary**: Para almacenar imágenes utilizadas en el proyecto en la nube.
+- HTML5: For the structure and content of the web pages.
+- CSS3: For the visual design and styling of the site.
+- GIT BASH: For version control.
+- GITHUB: For updating and storing files and documentation in the cloud.
+- FIGMA: For prototyping and wireframing the web project.
+- Cloudinary: For storing the images used in the project in the cloud.
 
 ---
 
