@@ -9,7 +9,9 @@
 
 ## 📌 Description of the project
 
-**Happy Travel** consiste en el desarrollo de un sitio web utilizando **HTML5** y **CSS3**, como parte del proyecto final de la asignatura de **Digitalización** del 3er trimestre del 1er curso del Grado Superior de Desarrollo de Aplicaciones Web. El objetivo principal es aplicar los conocimientos adquiridos sobre estructura y estilo de páginas web, creando una experiencia de usuario coherente y visualmente atractiva.
+**Happy Travel** This project involves the development of a website using HTML5 and CSS3, as part of the final assignment for the Digitization course in the third term of the first year of the Advanced Vocational Training Program in Web Application Development. The main goal is to apply the knowledge acquired about web page structure and styling, creating a consistent and visually appealing user experience.
+
+EnThe main idea is to implement basic concepts, such as creating a header, a footer, a form, adding images, and designing a responsive website using methods like @media. The project began with the creation of a website prototype in FIGMA. We included images from a Cloudinary repository. Finally, we used the Bash terminal with Git for version control, updating and saving the project to the cloud via GitHub.
 
 ---
 
