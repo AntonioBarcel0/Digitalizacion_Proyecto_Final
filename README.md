@@ -1,19 +1,19 @@
-# 🌐🏰🗺️ Digitalización - Proyecto Final - Happy Travel
+# 🌐🏰🗺️ Digitalización - Final Project - Happy Travel
 
-**Autor:** Antonio Ginés Barceló Berlanga  
-**Centro:** CEI (Centro de Estudios de Innovación)  
-**Asignatura:** Digitalización 
-**Fecha:** Mayo 2025
+**Author:** Antonio Ginés Barceló Berlanga  
+**Educational Institution:** CEI (Centro de Estudios de Innovación)  
+**Subject:** Digitalización 
+**Date:** May 2025
 
 ---
 
-## 📌 Descripción del Proyecto
+## 📌 Description of the project
 
 **Happy Travel** consiste en el desarrollo de un sitio web utilizando **HTML5** y **CSS3**, como parte del proyecto final de la asignatura de **Digitalización** del 3er trimestre del 1er curso del Grado Superior de Desarrollo de Aplicaciones Web. El objetivo principal es aplicar los conocimientos adquiridos sobre estructura y estilo de páginas web, creando una experiencia de usuario coherente y visualmente atractiva.
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📁 Estructure of repository
 
 Digitalizacion_Proyecto_Final/
 - index.html
@@ -43,15 +43,15 @@ Digitalizacion_Proyecto_Final/
 
 ## 🚀 Instrucciones de uso
 
-1. Abrir tu editor de codigo.
-2. Abrir la terminar con git (Bash)
-3. Clona el repositorio:
+1. Open your IDE.
+2. Open the terminal(Bash)
+3. Clone the repository:
    'git clone https://github.com/AntonioBarcel0/Digitalizacion_Proyecto_Final.git'
-4. Abrir el archivo happyTravel.html en tu navegador favorito
+4. Open 'happyTravel.html' in your
 
 ---
 
-## 👀🖼️ Vista Previa
+## 👀🖼️ Live Preview
 
 ![1.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.41.47_l6vxul.png)
 ![2.](https://res.cloudinary.com/duw8e1ydz/image/upload/v1747591677/Captura_de_pantalla_2025-05-18_a_las_19.42.10_pkbvhg.png)
@@ -60,9 +60,9 @@ Digitalizacion_Proyecto_Final/
 
 ---
 
-## 📬 Contacto
+## 📬 Contact
  
-Para más información o sugerencias: 
-- **Correo**: [antoniogibarber99@gmail.com]
+More info or sugerencias: 
+- **Mail**: [antoniogibarber99@gmail.com]
 - **GitHub**: AntonioBarcel0
   
